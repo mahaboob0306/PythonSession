@@ -1,0 +1,9 @@
+List=['apple','banana','orange','mango']
+List.append('grape')
+print("List:::",List)
+List.remove('banana')
+print("List:::",List)
+remove_item=List.pop()
+print("List:::",List)
+first_two_fruits=List[0:1]
+print("first_two_fruits:",first_two_fruits)
